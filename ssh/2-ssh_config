@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# A script to configure my server to ssh without password
+Host 44.201.254.150
+     HostName 44.201.254.150
+     User ubuntu
+     IdentityFile ~/.ssh/server_key
+     PasswordAuthentication no
